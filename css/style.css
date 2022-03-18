@@ -1,0 +1,129 @@
+/* Section 1 Style  */
+
+
+#section-1 {
+  background-image: url('img/bg-pattern.png'), linear-gradient(to right, #db2430,#8b3e85);
+  padding-bottom: 120px;
+}
+
+#section-1 div a.main-link-style{
+  color: gold;
+  font-size: 2em;
+}
+
+#section-1 div ul li a.nav-link-style {
+  color:rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+
+#section-1-phone-container{
+  width: 90%;
+}
+
+#section-1 p.section-1-paragraph {
+  color:white;
+}
+
+div button.btn-style {
+  padding: 15px 60px;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+p.section-1-paragraph {
+  flex-basis: 100%;
+}
+
+/* Section 2 Style */
+
+#section-2 {
+  background-color: #fdc741;
+  padding: 100px 0px;
+}
+
+#section-2 p.section-2-paragraph {
+  font-size: 5em;
+}
+
+#section-2 a img {
+  width:160px;
+}
+
+/* Section 3 Style  */
+
+#section-3 {
+  padding: 100px 0px;
+}
+
+#section-3 div.section-3-header {
+  margin-bottom: 110px;
+}
+
+#section-3 i{
+  font-size:5em;
+  color: #b63057;
+}
+
+
+#section-3 p.section-3-paragraph {
+  font-size: 0.8em;
+}
+
+/* Section 4 Style */
+
+#section-4 {
+  background-image: url('img/bg-cta.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0px;
+}
+
+#section-4 p.section-4-paragraph {
+  color:white;
+  font-size:5em;
+}
+
+/* Section 5 Style */
+
+#section-5 {
+  background-color: #fdc741;
+  padding: 80px 0px;
+}
+
+#section-5 div.icon-links i {
+  font-size: 3.5em;
+}
+
+#section-5 i#heart {
+  color: #dd4b39;
+}
+
+#section-5 i#twitter {
+  color: #1da1f2;
+}
+
+#section-5 i#facebook {
+  color: #3b5998;
+}
+
+#section-5 i#google {
+  color: #dd4b39;
+}
+
+/* Footer Style */
+
+footer {
+  background-color: #222222;
+  padding: 40px 0px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  #section-1-container {
+    justify-content: center;
+  }
+}
